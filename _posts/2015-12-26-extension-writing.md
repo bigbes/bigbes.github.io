@@ -1,6 +1,17 @@
+---
+layout:     post
+title:      "PHP5 Extension Development"
+date:       2015-12-26 00:00:00 +0300
+categories: php
+tags:       php zend extensions borrowed
+---
+
 # PHP5 Extension Development
 
 Next three articles were originally written by [Sara Golemon](https://github.com/sgolemon) in 2005. Since documentation for internal C API of Zend PHP Engine is very obscure, I've used this articles as some kind of introduction.
+
+<!--break-->
+
 Original articles:
 
 * [Extension Writing Part I: Introdcution to PHP and Zend](https://devzone.zend.com/303/extension-writing-part-i-introduction-to-php-and-zend/)
