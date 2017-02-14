@@ -44,7 +44,7 @@ Other place to start:
   * [INI Settings as Global Values](#ini-settings-as-global-values)
   * [Sanity Check](#sanity-check)
 - [Part II: Parameters, Arrays, and ZVALs](#extension-writing-part-ii-parameters-arrays-and-zvals)
-  * [Introduction](#introduction)
+  * [Introduction](#introduction-1)
   * [Accepting Values](#accepting-values)
   * [The ZVAL](#the-zval)
   * [Creating ZVALs](#creating-zvals)
@@ -53,7 +53,7 @@ Other place to start:
   * [Reference Counting](#reference-counting)
   * [Copies versus References](#copies-versus-references)
 - [Part III: Resources](#extension-writing-part-iii-resources)
-  * [Introduction](#introduction)
+  * [Introduction](#introduction-2)
   * [Resources](#resources)
   * [Initializing Resources](#initializing-resources)
   * [Accepting Resources as Function Parameters](#accepting-resources-as-function-parameters)
@@ -128,7 +128,7 @@ Let’s briefly compare traditional memory allocation functions (which should on
 [*] The `pemalloc()` family include a ‘persistent’ flag which allows them
     to behave like their non-persistent counterparts. For example
     `emalloc(1234)` is the same as `pemalloc(1234, 0)`
-       
+
 [**] `safe_emalloc()` and (in PHP 5) `safe_pemalloc()` perform an
      additional check to avoid integer overflows
 ```
@@ -551,7 +551,7 @@ And that’s it. The `OnUpdateBool` method you specified in the `INI_ENTRY` sect
 
 By now our three files should look similar to the following listings. (A few items have been moved and grouped together, for the sake of readability.)
 
-``` m4
+```
 -- config.m4
 PHP_ARG_ENABLE(hello, whether to enable Hello
 World support,
