@@ -100,7 +100,7 @@ Naming in `SEC` macro is vital, so "thinkaboutitman"!
 
 ### defining eBPF entrypoints and other functions
 
-* for eBPF we're using `SEC()` macro:
+* for eBPF we're using `SEC()` macro:\
     `SEC("u[ret]probe/<name>")`\
     `SEC("k[ret]probe/<name>")`\
     `SEC("tracepoint/syscalls/sys_[enter/exit]_<name>")`\

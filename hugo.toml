@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "strange invitation"
 theme = 'archie'
 copyright = "bigbes"
-tableOfContents = true
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
