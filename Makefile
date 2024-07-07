@@ -1,0 +1,2 @@
+start:
+	hugo server -w

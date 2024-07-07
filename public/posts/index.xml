@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on strange invitation</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on strange invitation</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>bigbes</copyright>
+    <lastBuildDate>Sun, 07 Jul 2024 11:30:00 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eBPF for SSL packet inspections</title>
+      <link>//localhost:1313/posts/ebpf-for-packet-interceptions/</link>
+      <pubDate>Sun, 07 Jul 2024 11:30:00 +0300</pubDate>
+      <guid>//localhost:1313/posts/ebpf-for-packet-interceptions/</guid>
+      <description>{{ .Page.TableOfContents }}&#xA;As a retrospection of task in a process, i&amp;rsquo;ve had a task to intercept http traffic sent by different processes with encryption using openssl. Main points of that task (related to eBPF) were:&#xA;eBPF uprobes for SSL_* functions (to obtain data that was sent/recived) eBPF kprobes for tcp_sendmsg/tcp_recvmsg (to obtain src/dst hosts/ports) a lot of tracepoints (primarily to map fd) Setting development environment I&amp;rsquo;m using WSL2 with arch on windows platform, so we&amp;rsquo;re having env problems :D First take was clion - but, sadly, I&amp;rsquo;ve failed to set up make projets &amp;gt;_&amp;lt;</description>
+    </item>
+  </channel>
+</rss>
