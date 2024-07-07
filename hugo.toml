@@ -16,6 +16,8 @@ paginate = 5
     subtitle = "some thoughts on different aspects of programming"
     mathjax = true # enable MathJax support
     katex = true # enable KaTeX support
+    customCSS = ["css/custom.css"]
+    customJS = ["js/custom.js"]
 
 [[params.social]]
     name = "GitHub"
